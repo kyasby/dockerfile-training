@@ -15,4 +15,4 @@
  - template
  - flask.py
 - 起動時コマンド
- - python3 flask.py
+ - python3 flask_app.py
