@@ -9,10 +9,11 @@
 - イメージ名
  - tiangolo/uwsgi-nginx-flask:python3.8
 - 以下を実行
- - $ sudo apt update && sudo apt upgrade -y
- - $ sudo apt install vim git
+ - $ apt update && apt upgrade -y
+ - $ apt install vim git
  - 以下のファイルをローカルPCから，dockerの/appにコピー
  - template
+   - ディレクトリは，"COPY templates/ /app/templates/"でコピー
  - flask_app.py
 - 起動時コマンド
  - python3 flask_app.py
