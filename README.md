@@ -13,6 +13,6 @@
  - $ sudo apt install vim git
  - 以下のファイルをローカルPCから，dockerの/appにコピー
  - template
- - flask.py
+ - flask_app.py
 - 起動時コマンド
  - python3 flask_app.py
