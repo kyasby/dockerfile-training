@@ -1,10 +1,10 @@
 FROM tiangolo/uwsgi-nginx-flask:python3.8
 
-RUN apt update && apt upgrade -y && apt install vim git
+RUN apt update && apt upgrade -y && apt install -y vim git
 
 WORKDIR /app
 
 COPY templates/ /app/templates/
 COPY flask_app.py .
 
-COM ["python3", "flask_app.py"]
+CMD ["python3", "flask_app.py"]
